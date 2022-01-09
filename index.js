@@ -1,4 +1,4 @@
-export default function fakeProfession(options) {
+export default function profession(options) {
     options = options || {};
     let ranks = {
         "en_US": [
@@ -401,7 +401,7 @@ export default function fakeProfession(options) {
             "Warehouse Manager"
         ]
     };
-    let locale = ((options.locale === undefined) ? 'en_US' : options.locale);
+    let locale = options.locale || 'en_US';
     let randomProfession = professions[locale][Math.floor(Math.random() * professions[locale].length)];
     if (options.rank) {
         return ranks[locale][Math.floor(Math.random() * ranks[locale].length)] + ' ' + randomProfession;

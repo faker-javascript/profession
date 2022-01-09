@@ -1,6 +1,6 @@
 {
   "name": "@fakerjs/profession",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Profession package provides functionality to generate a fake profession value.",
   "license": "MIT",
   "repository": "faker-javascript/profession",
@@ -25,6 +25,7 @@
   ],
   "keywords": [
     "fakerjs",
+    "faker",
     "fake",
     "random",
     "profession",

@@ -15,19 +15,19 @@ $ npm install --save @fakerjs/profession
 ## Usage
 
 ```js
-import fakeProfession from '@fakerjs/profession';
+import profession from '@fakerjs/profession';
 
-fakeProfession();
+profession();
 //=> Software Engineer
 
-fakeProfession({rank: true});
+profession({rank: true});
 //=> Lead Software Engineer
 
-fakeProfession({rank: true, locale: 'en_US'});
+profession({rank: true, locale: 'en_US'});
 //=> Lead Software Engineer
 
-// Allowed ranks: true, false
-// Allowed locales: en_US
+// Allowed rank: true, false
+// Allowed locale: en_US
 ```
 
 ## Tests

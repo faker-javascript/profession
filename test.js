@@ -1,10 +1,10 @@
-import fakeProfession from './index.js';
+import profession from './index.js';
 import test from 'ava';
 
-test('fakeProfession return type to be string', t => {
-	t.is(typeof fakeProfession(), 'string');
+test('profession return type to be string', t => {
+	t.is(typeof profession(), 'string');
 });
 
-test('fakeProfession with rank return type to be string', t => {
-	t.is(typeof fakeProfession({rank: true}), 'string');
+test('profession with rank return type to be string', t => {
+	t.is(typeof profession({rank: true}), 'string');
 });
