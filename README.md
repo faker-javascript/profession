@@ -9,8 +9,14 @@ Profession package provides functionality to generate a fake profession value.
 
 ## Install
 
+npm
 ```
-$ npm install --save @fakerjs/profession
+npm install @fakerjs/profession --save-dev
+```
+
+yarn
+```
+yarn add @fakerjs/profession -D
 ```
 
 ## Usage
